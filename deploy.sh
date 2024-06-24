@@ -1,5 +1,5 @@
 #!/bin/bash
-APP_NAME="my-app"
+APP_NAME="docker-front"
 VERSION="1.0.0"
 PORT="20001"
 APP_NAME_OLD="${APP_NAME}-old"
