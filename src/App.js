@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
+import config from "./config";
 
 function App() {
-  const apiUrl = "http://localhost:8080/api";
+  const apiUrl = config.API;
 
   const [isMount, setIsMount] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
